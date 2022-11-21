@@ -1,2 +1,2 @@
 # milkycreamy22333
- idk
+this is gonna be a simple little site for testing my different coding thigns out
