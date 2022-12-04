@@ -1,7 +1,7 @@
 :root {
   --bg1: url(https://wallpaperaccess.com/full/86253.jpg);
   background-position: fixed;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-image: var(--bg1);
 }
 :root {
@@ -56,11 +56,6 @@ li {
 div {
   background-color: #0c003562;
   padding: 30px;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
   border-radius: 20px;
 }
 section {
