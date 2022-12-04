@@ -1,7 +1,7 @@
 :root {
-  --bg1: url(https://wallpaperaccess.com/full/86253.jpg);
-  background-position: fixed;
-  background-repeat: no-repeat;
+  --bg1: url(https://wallpapercave.com/wp/wp10955161.jpg);
+  background-position: center;
+  background-repeat: repeat;
   background-image: var(--bg1);
 }
 :root {
@@ -17,7 +17,7 @@ h1 {
   font-family: var(--text1);
   font-size: 50px;
   outline: auto;
-  background-color: #000000da;
+  background-color: #0000008a;
   border-radius: 20px;
   padding: 50px;
 }
@@ -43,6 +43,7 @@ h3 {
   outline-color: #00000045;
   border-radius: 30px;
   background-color: #ffffff4d;
+  position: relative;
   padding: 5px;
 }
 li {
@@ -66,8 +67,4 @@ section {
   border: solid;
   border-color: #00000045;
   border-radius: 20px;
-}
-footer {
-  background-color: #00000027;
-  margin-top: 185px;
 }
