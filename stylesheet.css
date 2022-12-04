@@ -1,39 +1,77 @@
-body {
-  background-image: url(https://cdn.wallpapersafari.com/80/75/av8y43.jpg);
-  font-family: "sans-serif";
+:root {
+  --bg1: url(https://wallpaperaccess.com/full/86253.jpg);
+  background-position: fixed;
+  background-repeat: repeat;
+  background-image: var(--bg1);
+}
+:root {
+  --text1: ;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
   font-size: 20px;
+  padding: 4%;
 }
 h1 {
-  font-size: 40px;
-  text-align: center;
-  color: #000000;
+  color: #971717;
+  font-family: var(--text1);
+  font-size: 50px;
+  outline: auto;
+  background-color: #000000da;
+  border-radius: 20px;
+  padding: 50px;
 }
-h2 {
-  font-size: 30px;
-  text-align: center;
-  color: #000000;
-}
+h2,
 h3 {
-  font-size: 20px;
-  text-align: center;
-  color: #000000;
+  color: var(--text1);
+  font-family: var(--text1);
+  background-color: #6b6b6b69;
+  padding: 30px;
+  border-radius: 20px;
 }
-ul {
-  text-align: left;
+.p1 {
+  color: var(--text1);
+  font-family: var(--text1);
+  background-color: #ffffff4d;
+  padding: 2px;
+  border-radius: 5px;
+}
+.p2 {
+  color: var(--text1);
+  font-family: var(--text1);
+  outline: solid;
+  outline-color: #00000045;
+  border-radius: 30px;
+  background-color: #ffffff4d;
+  padding: 5px;
 }
 li {
-  text-align: left;
+  color: var(--text1);
+  font-family: var(--text1);
+  background-color: #ffffff4d;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
 }
-.milk {
-  width: 80%;
-  background-color: bisque;
-  margin-left: auto;
-  margin-right: auto;
+div {
+  background-color: #0c003562;
   padding: 30px;
-  border: 2px solid black;
-  max-width: 500px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 20px;
 }
-p {
-  text-align: center;
-  color: #000000;
+section {
+  background-color: #00000027;
+  padding: 30px;
+  border: solid;
+  border-color: #00000045;
+  border-radius: 20px;
+  margin: 20px;
+}
+footer {
+  background-color: #00000027;
+  margin-top: 185px;
 }
