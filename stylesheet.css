@@ -1,9 +1,10 @@
 :root {
-  --bg1: url(https://wallpapercave.com/wp/wp10955161.jpg);
+  --bg1: url(https://wallpaperaccess.com/full/3527667.png);
+  image-rendering: optimizeQuality;
   background-position: center;
   background-repeat: repeat;
   background-image: var(--bg1);
-  --text1: ;
+  --text1:;
   color: #000;
   font-family: "Roboto", sans-serif;
   text-align: center;
