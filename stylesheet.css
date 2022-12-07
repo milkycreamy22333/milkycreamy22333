@@ -3,8 +3,6 @@
   background-position: center;
   background-repeat: repeat;
   background-image: var(--bg1);
-}
-:root {
   --text1: ;
   color: #000;
   font-family: "Roboto", sans-serif;
@@ -17,7 +15,7 @@ h1 {
   font-family: var(--text1);
   font-size: 50px;
   outline: auto;
-  background-color: #0000008a;
+  background-color: rgba(0, 0, 0, 0.541);
   border-radius: 20px;
   padding: 50px;
 }
@@ -25,14 +23,14 @@ h2,
 h3 {
   color: var(--text1);
   font-family: var(--text1);
-  background-color: #6b6b6b69;
+  background-color: rgba(107, 107, 107, 0.412);
   padding: 30px;
   border-radius: 20px;
 }
 .p1 {
   color: var(--text1);
   font-family: var(--text1);
-  background-color: #ffffff4d;
+  background-color: rgba(255, 255, 255, 0.302);
   padding: 2px;
   border-radius: 5px;
 }
@@ -40,31 +38,31 @@ h3 {
   color: var(--text1);
   font-family: var(--text1);
   outline: solid;
-  outline-color: #00000045;
+  outline-color: rgba(0, 0, 0, 0.271);
   border-radius: 30px;
-  background-color: #ffffff4d;
+  background-color: rgba(255, 255, 255, 0.302);
   position: relative;
   padding: 5px;
 }
 li {
   color: var(--text1);
   font-family: var(--text1);
-  background-color: #ffffff4d;
+  background-color: rgba(255, 255, 255, 0.302);
   padding: 20px;
   margin: 10px;
   border-radius: 15px;
 }
 div {
-  background-color: #0c003562;
+  background-color: rgba(12, 0, 53, 0.384);
   padding: 30px;
   border: solid;
-  border-color: #00000027;
+  border-color: rgba(0, 0, 0, 0.153);
   border-radius: 20px;
 }
 section {
-  background-color: #00000027;
+  background-color: rgba(0, 0, 0, 0.153);
   padding: 30px;
   border: solid;
-  border-color: #00000045;
+  border-color: rgba(0, 0, 0, 0.271);
   border-radius: 20px;
 }
