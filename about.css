@@ -2,56 +2,63 @@
   --bg-main-color: rgba(91, 3, 3, 0.575);
   --bg-secondary-color: #30303075;
   --text-main-color: #000;
-  text-shadow: #fff 0 0 2px;
+  text-shadow: #fff 0 0 4px;
   --text-secondary-color: #ff0000;
-  --text-third-color: #d4ff00;
+  --text-tertiary-color: #d4ff00;
   --text-size-1: 2rem;
   --text-size-2: 1.5rem;
   --text-size-3: 1.2rem;
   --text-align-main: center;
   --padding-main: 0.5rem;
 }
-html {
+body {
+  max-width: 60rem;
+  margin: 0 auto;
   background: url(https://wallpaperaccess.com/full/3527667.png);
-  background-size: cover;
-  position: absolute; top:0;  left: 0; right: 0; bottom: 0;
+  color: var(--text-main-color);
+  text-align: var(--text-align-main);
 }
-.wrapper {
-  background-color: var(--bg-main-color, #30303075);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: var(--text-align-main, center);
-  font-size: var(--text-size-2, 1.2rem);
-  border-radius: 2rem;
+main {
+  background-color: var(--bg-main-color);
 }
-.wrapper > h1 {
-  font-size: var(--text-size-1, 2rem);
-  color: var(--text-main-color, #000);
+div {
+  overflow: auto;
+  height: 100%;
 }
-.nav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  padding: var(--padding-main, 0.5rem);
-  font-size: var(--text-size-3, 0.5rem);
+#nav {
+  padding: 0.625rem;
+  margin: 0.625rem;
 }
-a {
-  color: var(--text-secondary-color, #ff0000);
+li {
+  display: inline;
+  padding: 0.313rem;
 }
-a:hover {
-  color: var(--text-main-color, #000);
+ul {
+  text-align: center;
 }
 p {
-  color: var(--text-third-color);
+  color: var(--text-tertiary-color);
   font-size: var(--text-size-3, 0.5rem);
 }
 footer {
-  position: absolute; bottom: 0; left: 0; right: 0; top: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: auto;
   background-color: #000;
   color: #fff;
-  padding: var(--padding-main, 0.5rem);
-  font-size: var(--text-size-3, 0.5rem);
-  text-align: var(--text-align-main, center);
-  border-radius: 0.5rem;
+  padding: 0.625rem;
+  font-size: var(--text-size-3);
+}
+a {
+  color: var(--text-secondary-color);
+}
+a:hover {
+  color: var(--text-main-color);
+}
+h1,
+h2,
+h3 {
+  font-size: var(--text-size-1);
 }
