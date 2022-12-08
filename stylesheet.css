@@ -1,7 +1,5 @@
 :root {
   --bg-main-color: rgba(91, 3, 3, 0.575);
-  background-image: url(https://wallpaperaccess.com/full/3527667.png);
-  background-size: auto;
   --bg-secondary-color: #30303075;
   --text-main-color: #000;
   text-shadow: #fff 0 0 2px;
@@ -13,7 +11,13 @@
   --text-align-main: center;
   --padding-main: 0.5rem;
 }
+html {
+  background: url(https://wallpaperaccess.com/full/3527667.png);
+  background-size: auto;
+}
 .wrapper {
+  max-width: 31.25rem;
+  margin: auto;
   background-color: var(--bg-main-color, #30303075);
   display: flex;
   justify-content: center;
