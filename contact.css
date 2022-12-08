@@ -47,6 +47,8 @@ footer {
   top: auto;
   background-color: #000;
   color: #fff;
+  padding: 0.625rem;
+  font-size: var(--text-size-3);
 }
 a {
   color: var(--text-secondary-color);
