@@ -1,0 +1,54 @@
+:root {
+    --bg-main-color: rgba(91, 3, 3, 0.575);
+    background-image: url(https://wallpaperaccess.com/full/3527667.png);
+    background-size: auto;
+    --bg-secondary-color: #30303075;
+    --text-main-color: #000;
+    text-shadow: #fff 0 0 2px;
+    --text-secondary-color: #ff0000;
+    --text-third-color: #d4ff00;
+    --text-size-1: 2rem;
+    --text-size-2: 1.5rem;
+    --text-size-3: 1.2rem;
+    --text-align-main: center;
+    --padding-main: 0.5rem;
+  }
+  .wrapper {
+    background-color: var(--bg-main-color, #30303075);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: var(--text-align-main, center);
+    font-size: var(--text-size-2, 1.2rem);
+    border-radius: 2rem;
+  }
+  .wrapper > h1 {
+    font-size: var(--text-size-1, 2rem);
+    color: var(--text-main-color, #000);
+  }
+  .nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: var(--padding-main, 0.5rem);
+    font-size: var(--text-size-3, 0.5rem);
+  }
+  a {
+    color: var(--text-secondary-color, #ff0000);
+  }
+  a:hover {
+    color: var(--text-main-color, #000);
+  }
+  p {
+    color: var(--text-third-color);
+    font-size: var(--text-size-3, 0.5rem);
+  }
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: var(--padding-main, 0.5rem);
+    font-size: var(--text-size-3, 0.5rem);
+    text-align: var(--text-align-main, center);
+    border-radius: 0.5rem;
+  }
+  
