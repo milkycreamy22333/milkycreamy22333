@@ -28,13 +28,28 @@
   font-size: var(--text-size-1, 2rem);
   color: var(--text-main-color, #000);
 }
-.nav{display: flex; flex-flow: row wrap; justify-content: space-around;
-padding:var(--padding-main,0.5rem);
-font-size: var(--text-size-3, 0.5rem);}
-a{color: var(--text-secondary-color, #ff0000);}
-a:hover{color: var(--text-main-color, #000);}
-p{color: var(--text-third-color); font-size: var(--text-size-3, 0.5rem);}
-footer{background-color: #000; color: #fff; padding: var(--padding-main,0.5rem);
-font-size: var(--text-size-3, 0.5rem);
-text-align: var(--text-align-main, center);
-border-radius: .5rem;}
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: var(--padding-main, 0.5rem);
+  font-size: var(--text-size-3, 0.5rem);
+}
+a {
+  color: var(--text-secondary-color, #ff0000);
+}
+a:hover {
+  color: var(--text-main-color, #000);
+}
+p {
+  color: var(--text-third-color);
+  font-size: var(--text-size-3, 0.5rem);
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: var(--padding-main, 0.5rem);
+  font-size: var(--text-size-3, 0.5rem);
+  text-align: var(--text-align-main, center);
+  border-radius: 0.5rem;
+}
