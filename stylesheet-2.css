@@ -14,7 +14,7 @@
 html {
   background: url(https://wallpaperaccess.com/full/3527667.png);
   background-size: cover;
-  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  position: absolute; top:0;  left: 0; right: 0; bottom: 0;
 }
 .wrapper {
   background-color: var(--bg-main-color, #30303075);
