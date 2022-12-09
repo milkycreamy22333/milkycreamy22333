@@ -9,8 +9,11 @@
   --text-size-2: 1.5rem;
   --text-size-3: 1.2rem;
   --text-align-main: center;
+  --font-family-main: "sans-serif", serif, Arial, Helvetica;
 }
 body {
+  font-family: var(--font-family-main);
+  position: relative;
   max-width: 60rem;
   margin: 0 auto;
   background: url(https://wallpaperaccess.com/full/3527667.png);
@@ -19,36 +22,26 @@ body {
 }
 main {
   background-color: var(--bg-main-color);
+  height: 690px;
 }
 div {
   overflow: auto;
   height: 100%;
 }
-#nav {
-  padding: 0.625rem;
-  margin: 0.625rem;
+ul {
+  list-style-type: none;
 }
 li {
   display: inline;
-  padding: 0.313rem;
-}
-ul {
-  text-align: center;
-}
-p {
-  color: var(--text-tertiary-color);
-  font-size: var(--text-size-3, 0.5rem);
+  padding: 5rem;
 }
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: auto;
+  position: relative;
+  bottom: 0 auto;
+  padding: 0.1rem;
+  text-align: center;
   background-color: #000;
   color: #fff;
-  padding: 0.625rem;
-  font-size: var(--text-size-3);
 }
 a {
   color: var(--text-secondary-color);
@@ -56,7 +49,11 @@ a {
 a:hover {
   color: var(--text-main-color);
 }
-h1,
-h2 {
-  font-size: var(--text-size-1);
+h1, h2 {
+  color: var(--text-tertiary-color);
+  font-size: var(--text-size-1, 0.5rem);
+}
+p {
+  color: var(--text-tertiary-color);
+  font-size: var(--text-size-3, 0.5rem);
 }
