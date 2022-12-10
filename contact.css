@@ -1,6 +1,6 @@
 :root {
-  --bg-main-color: rgba(91, 3, 3, 0.575);
-  --bg-secondary-color: #30303075;
+  --bg-main-color: rgba(205, 0, 0, 0.72);
+  --bg-secondary-color: rgba(80, 0, 0, 0.859);
   --text-main-color: #000;
   text-shadow: rgb(255, 255, 255) 0 0 4px;
   --text-secondary-color: #ff0000;
@@ -11,49 +11,57 @@
   --text-align-main: center;
   --font-family-main: "sans-serif", serif, Arial, Helvetica;
 }
+
 body {
+  height: 100%;
+  background: url(https://cdn.pixabay.com/photo/2019/05/18/13/34/twigs-4211837_1280.jpg);
   font-family: var(--font-family-main);
-  position: relative;
-  max-width: 60rem;
-  margin: 0 auto;
-  background: url(https://wallpaperaccess.com/full/3527667.png);
-  color: var(--text-main-color);
   text-align: var(--text-align-main);
 }
-main {
-  background-color: var(--bg-main-color);
-  height: 690px;
-}
-div {
-  overflow: auto;
+.container {
   height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(205, 0, 0, 0.72);
+}
+.box {
+  text-align: var(--text-align-main);
+  background-color: var(--bg-main-color);
+  color: var(--text-tertiary-color);
+  font-family: var(--font-family-main);
+  font-size: var(--text-size-1);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box-1 {
+  height: 2.5rem;
+}
+.box-2 {
+  flex: 1;
+  margin: 15rem;
+}
+.box-3 {
+  height: 2.5rem;
 }
 ul {
   list-style-type: none;
 }
 li {
   display: inline;
-  padding: 5rem;
+  padding: 6rem;
+  font-size: var(--text-size-1);
 }
 footer {
-  position: relative;
-  bottom: 0 auto;
-  padding: 0.1rem;
+  background-color: var(--bg-secondary-color);
+  padding: 1rem;
   text-align: center;
-  background-color: #000;
-  color: #fff;
 }
 a {
   color: var(--text-secondary-color);
 }
 a:hover {
   color: var(--text-main-color);
-}
-h1, h2 {
-  color: var(--text-tertiary-color);
-  font-size: var(--text-size-1, 0.5rem);
-}
-p {
-  color: var(--text-tertiary-color);
-  font-size: var(--text-size-3, 0.5rem);
 }
